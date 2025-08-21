@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners><listener class-name="com.jiggy.generic.LisenerUtility.ListImpClass"></listener></listeners>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Smoke.SmokeTest_1"/>
+      <class name="Smoke.SmokeTest_2"/>
+      <class name="System.SystemTest"/>
+      <class name="Integration.IntegrationTest_2"/>
+      <class name="System.SystemTest_2"/>
+      <class name="System.SystemTest_3"/>
+      <class name="System.System_1"/>
+      <class name="Integration.IntegrationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
